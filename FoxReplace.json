@@ -1,0 +1,47 @@
+{
+  "version": "2.1",
+  "groups": [
+    {
+      "name": "NFTs",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "NFT",
+          "inputType": "text",
+          "output": "ugly jpeg",
+          "caseSensitive": false
+        },
+        {
+          "input": "non-fungible token",
+          "inputType": "text",
+          "output": "Truly hideous picture",
+          "caseSensitive": false
+        }
+      ],
+      "html": "none",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "Millennials",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "millennials",
+          "inputType": "text",
+          "output": "snake people",
+          "caseSensitive": false
+        },
+        {
+          "input": "millennial",
+          "inputType": "text",
+          "output": "snake person",
+          "caseSensitive": false
+        }
+      ],
+      "html": "none",
+      "enabled": true,
+      "mode": "auto&manual"
+    }
+  ]
+}
