@@ -51,7 +51,13 @@
           "input": "vampire",
           "inputType": "text",
           "output": "dracula",
-          "caseSensitive": false
+          "caseSensitive": true
+        },
+        {
+          "input": "Vampire",
+          "inputType": "text",
+          "output": "Dracula",
+          "caseSensitive": true
         }
       ],
       "html": "none",
