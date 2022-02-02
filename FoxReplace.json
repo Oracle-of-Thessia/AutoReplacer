@@ -43,7 +43,7 @@
       "enabled": true,
       "mode": "auto&manual"
     },
-	{
+    {
       "name": "Draculas",
       "urls": [],
       "substitutions": [
@@ -52,7 +52,7 @@
           "inputType": "text",
           "output": "dracula",
           "caseSensitive": false
-        },
+        }
       ],
       "html": "none",
       "enabled": true,
