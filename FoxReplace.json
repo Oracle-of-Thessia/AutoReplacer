@@ -42,6 +42,21 @@
       "html": "none",
       "enabled": true,
       "mode": "auto&manual"
+    }    
+	{
+      "name": "Draculas",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "vampire",
+          "inputType": "text",
+          "output": "dracula",
+          "caseSensitive": false
+        },
+      ],
+      "html": "none",
+      "enabled": true,
+      "mode": "auto&manual"
     }
   ]
 }
