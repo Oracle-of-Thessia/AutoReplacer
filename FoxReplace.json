@@ -63,6 +63,27 @@
       "html": "none",
       "enabled": true,
       "mode": "auto&manual"
+    },
+    {
+      "name": "Billionaires are oligarchs",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "Billionaire",
+          "inputType": "text",
+          "output": "Oligarch",
+          "caseSensitive": true
+        },
+        {
+          "input": "billionaire",
+          "inputType": "text",
+          "output": "oligarch",
+          "caseSensitive": true
+        }
+      ],
+      "html": "none",
+      "enabled": true,
+      "mode": "auto&manual"
     }
   ]
 }
